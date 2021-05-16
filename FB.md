@@ -1,30 +1,38 @@
-[I would like to share with you the [[iOS 14 updates action
+[I would like to share with you the [iOS 14 updates action
 plan]{.s2}](https://developers.facebook.com/blog/post/2020/12/16/preparing-partners-ios-14-mobile-web-advertising/).]{.s1}
 
 []{.s3}\
 
 [Apple iOS 14: Action Steps Needed Now:-]{.s1}
 
-[1. Implement the Conversion API via Partner Integration (Big Platforms
+1. Implement the Conversion API via Partner Integration (Big Platforms
 like Shopify, Woocommerce etc.) or manually (recommended) with Developer
 Tools
-([[1]{.s4}](https://www.facebook.com/business/help/2041148702652965?id=818859032317965), [[2]{.s4}](https://www.facebook.com/business/help/433493041367251), [[3]{.s4}](https://developers.facebook.com/docs/marketing-api/conversions-api), [[4]{.s4}](https://developers.facebook.com/docs/marketing-api/conversions-api/get-started)]{.s1}[, [[5]{.s4}](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api)]{.s5}[)
+[About Conversions API](https://www.facebook.com/business/help/2041148702652965?id=818859032317965)
+[Compare Conversions API setup options](https://www.facebook.com/business/help/433493041367251)
+[FB3](https://developers.facebook.com/docs/marketing-api/conversions-api)
+[FB4](https://developers.facebook.com/docs/marketing-api/conversions-api/get-started)]
+[FB5](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api)]
+
 / Google Tag Manager
-([[1]{.s4}](https://gtm-server.com/how-to-set-up-facebook-conversion-api/), [[2]{.s4}](https://observingfromspace.com/2020/10/12/google-tag-manager-facebook-conversion-api/)]{.s1}[, [[3]{.s4}](https://www.getelevar.com/guides/facebook/conversion-api-settings/)]{.s5}[)
+(
+[1](https://gtm-server.com/how-to-set-up-facebook-conversion-api/)
+[2](https://observingfromspace.com/2020/10/12/google-tag-manager-facebook-conversion-api/)]{.s1}[
+[3](https://www.getelevar.com/guides/facebook/conversion-api-settings/)]{.s5}[)
 / Zapier
-([[1]{.s4}](https://zapier.com/blog/automate-facebook-conversion-api-with-zapier/))]{.s1}
+([1](https://zapier.com/blog/automate-facebook-conversion-api-with-zapier/))]{.s1}
 
 [- This helps you track based on information completed on your site
 through other means than cache-based pixel events.]{.s1}
 
-[2. [[Verify your
-domain]{.s4}](https://www.facebook.com/business/help/286768115176155)]{.s6}
+[2. [Verify your
+domain](https://www.facebook.com/business/help/286768115176155)]{.s6}
 
 [- This ensures you're set up as "official" to Facebook.]{.s1}
 
 [3. Decide which eight events for conversions you'll track.
-Then [[customize them in the Events
-Manager]{.s4}](https://www.facebook.com/business/help/422408905612648/)]{.s1}
+Then [customize them in the Events
+Manager](https://www.facebook.com/business/help/422408905612648/)]{.s1}
 
 [- Reporting will be very different. Facebook states, "The 8 conversion
 events per domain will be ranked based on priority. If multiple events
@@ -58,3 +66,14 @@ product\" or \"What else would you like to see from us)]{.s1}
 [**Glenn Tan**]{.s1}
 
 [**Facebook Marketing Expert**]{.s1}
+
+```mermaid
+flowchart LR
+   CAPI[Implement the Conversion API]
+    Website --- B
+    B -.- C
+    B === D
+
+click B "http://www.github.com" "This is a tooltip for a link"
+
+```
